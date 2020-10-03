@@ -14,7 +14,8 @@ function setup() {
 
 function draw() {
   background("black");  
-if(wall.x-car-x < wall.x/2+car.x/2){
+
+ if(wall.x-car-x < wall.x/2+car.x/2){
 car.velocityX=0;
 var deformation=0.5*speed*weight*speed/22500;
 if(deformation>180){
